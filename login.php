@@ -98,7 +98,7 @@
     />
                 </div>
                 <div>
-                    <a class="col s5 offset-s1 grey-text text-lighten-1" href="?action=forget">Forgot my password</a>
+                    <a class="col s5 offset-s1 grey-text text-lighten-1" href="forget.php">Forgot my password</a>
                 </div>
 
                 <div class="col s10 offset-s1">
@@ -108,7 +108,7 @@
                 </div>
 
                 <div>
-                    <a class="col s5 offset-s1 grey-text text-lighten-1" href="?action=forget">Doesn't have an io account?</a>
+                    <a class="col s5 offset-s1 grey-text text-lighten-1" href="register.php">Doesn't have an io account?</a>
                 </div>
                 
                 <div class="col s10 offset-s1">
