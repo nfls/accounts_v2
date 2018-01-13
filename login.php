@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <div>
-                    <a class="waves-effect waves-light blue btn col s3 offset-s8">Sign in</a>
+                    <a class="waves-effect waves-light blue btn col s3 offset-s8" onclick="submitLogin()">Sign in</a>
                 </div>
                 
                 <div class="col s10 offset-s1">
@@ -150,5 +150,5 @@
         $('.slider').slider();
     });
 </script>
-<script src="js/gameList.js"></script>
+<script src="js/login.js"></script>
 <script src='https://www.recaptcha.net/recaptcha/api.js'></script>
