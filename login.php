@@ -110,14 +110,6 @@
                 <div>
                     <a class="col s5 offset-s1 grey-text text-lighten-1" href="?action=forget">Doesn't have an io account?</a>
                 </div>
-
-                <div class="col s10 offset-s1">
-                    <div style="line-height:150%;">
-                        <br>
-                    </div>
-                </div>
-
-                <div class="g-recaptcha col s10 offset-s1" data-sitekey="6Lc0GTMUAAAAAARFMMHvdwE14X3nIgoLXx7SF2F5"></div>
                 
                 <div class="col s10 offset-s1">
                     <div style="line-height:200%;">
@@ -125,7 +117,8 @@
                     </div>
                 </div>
                 <div>
-                    <a class="waves-effect waves-light blue btn col s3 offset-s8" onclick="submitLogin()">Sign in</a>
+                    <a class="g-recaptcha waves-effect waves-light blue btn col s3 offset-s8" data-sitekey="6LdzGDMUAAAAAMD6AXB16RMgHqywoKrvUFA1BA6-"
+data-callback="YourOnSubmitFn" onclick="submitLogin()">Sign in</a>
                 </div>
                 
                 <div class="col s10 offset-s1">
